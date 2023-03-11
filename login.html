@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Login Screen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.all.css" />
+    <link rel="stylesheet" href="screen-sizes.css" />
+</head>
+<body>
+    
+    <div id="container">
+        <div class="box">
+            <div class="box-title">
+                <!-- <div class="logo">
+                    <img src="logo.png" alt="Find me a Home!" />
+                </div> -->
+                <h2>Login</h2>
+            </div>
+
+            <div class="box-body">
+                <div class="form-control">
+                    <div class="input-text">Email address</div>
+                    <div class="input-box">
+                        <input type="text" placeholder="john.smith@gmail.com" required pattern="\w{5,16}" />
+                    </div>
+                </div>
+
+                <div class="form-control">
+                    <div class="input-text">Password</div>
+                    <div class="input-box password">
+                        <div>
+                            <input type="password" placeholder="*********" required />
+                        </div>
+                        <div>
+                            <a href="#" style="color:#0c69d3">Reset Password</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-control">
+                   <input type="checkbox" checked />
+                   <span>Remember Password</span>
+                </div>
+
+                <div class="form-control">
+                    <button>Login</button>
+                </div>
+                    
+                <div class="form-control">
+                    <p>
+                        <span>Don't have an account?</span>
+                        <a href="#">Sign up</a>
+                    </p>
+                </div>
+            </div>
+
+
+            
+        </div>
+    </div>
+
+</body>
+</html>
